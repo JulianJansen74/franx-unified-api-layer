@@ -21,15 +21,11 @@ Q4: Which client segment do you think would benefit most from external bank conn
 ABN AMRO clients first, because of the existing relationship. But medium-sized businesses with accounts at multiple banks would also benefit a lot, 
 they currently have to manage funding across multiple accounts manually. If Franx could be the single interface for all of that, it becomes much more valuable.
 
-Q5: If Franx could see a client's balance at an external bank in real time, how would that change how you manage risk today?
-It would change risk management significantly. Right now we only see the balance on the Franx account, not what the client actually has across their banks. 
-With real-time AIS data, we could make better credit decisions and reduce the risk of clients overcommitting on trades they cannot fund.
-
-Q6: Do you see external banking connectivity as a competitive advantage for Franx in the next few years?
+Q5: Do you see external banking connectivity as a competitive advantage for Franx in the next few years?
 Yes. Reducing the onboarding friction and broadening the addressable client base without requiring new account infrastructure is a clear competitive advantage. 
 It also makes Franx more relevant for clients who want to trade internationally but do not want to maintain a separate Franx account just for that.
 
-Q7: What would need to change operationally if Franx started initiating payments at external banks on behalf of clients?
+6: What would need to change operationally if Franx started initiating payments at external banks on behalf of clients?
 The biggest operational change would be around consent management. Right now consent for payments is implicit, the client logs into Franx and approves. 
 If we are initiating payments at an external bank, we need a formal consent mechanism and a way to track and validate that consent over time, 
 especially for forward contracts where the payment happens much later. The team would also need to handle failure scenarios — what happens if the external bank rejects the payment, 
