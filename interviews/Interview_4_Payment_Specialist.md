@@ -1,4 +1,4 @@
-Interview 5 — Payment Specialist (Session 1)
+Interview 4 — Payment Specialist
 Topic: Payment flow, PSD2 PIS/AIS use cases, advance consent, consent storage, non-PSD2 APIs.
 Setting: Franx office
 
