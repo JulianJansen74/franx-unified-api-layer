@@ -1,4 +1,4 @@
-Interview 7 — Business Stakeholder
+Interview 6 — Business Stakeholder
 Topic: Commercial value of external banking connectivity, client onboarding, FX flow via Franx.
 Setting: Franx office
 
