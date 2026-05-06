@@ -1,4 +1,4 @@
-Interview 4 — Senior Operations Engineer
+Interview 3 — Senior Operations Engineer
 Topic: Commercial value of external banking connectivity, operational impact, client segments, PSD2 strategy.
 Setting: Franx office
 
