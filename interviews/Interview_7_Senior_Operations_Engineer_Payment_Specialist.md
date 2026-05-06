@@ -1,4 +1,4 @@
-Interview 8 — Senior Operations Engineer and Payment Specialist (Joint Session)
+Interview 7 — Senior Operations Engineer and Payment Specialist (Joint Session)
 Topic: Architecture discussion on routing external ABN AMRO calls through ABFR, frontend impact, translation layer design.
 Setting: Franx office
  
