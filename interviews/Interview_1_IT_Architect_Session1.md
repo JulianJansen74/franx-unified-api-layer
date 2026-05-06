@@ -1,4 +1,4 @@
-Interview 1 - IT Architect (Session 1)
+Interview 1 - IT Architect
 Topic: Inbound PSD2 architecture, eIDAS certificate validation, OAuth2, JWT, Proof of Possession, mTLS, Outbound PSD2 connectivity, CQRS principle, core API standardisation, sandbox recommendation.
 Setting: Microsoft Teams
 
