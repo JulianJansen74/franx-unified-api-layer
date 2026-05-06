@@ -1,4 +1,4 @@
-Interview 3 - QA Engineer
+Interview 2 - QA Engineer
 Topic: PSD2 API testing, consent validation, test environments.
 Setting: Microsoft Teams
 
