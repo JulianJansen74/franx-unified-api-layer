@@ -1,5 +1,4 @@
 Architecture Validation 4 — Backend Developer
-Topic: Architecture validation focused on API standardisation, adapter pattern, CQRS implementation, and extensibility.
 Setting: Franx Office
 
 Architecture Validation
