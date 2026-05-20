@@ -1,5 +1,4 @@
 Architecture Validation 3 — Payment Specialist
-Topic: Architecture validation focused on payment initiation flow, consent model, future-dated payments, and Access Online redirect.
 Setting: Franx office
  
 Architecture Validation
