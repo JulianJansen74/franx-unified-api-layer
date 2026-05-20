@@ -1,4 +1,4 @@
-Architecture Validation — IT Architect 
+Architecture Validation 1 — IT Architect 
 Topic: Architecture validation, consent storage, table design, runtime behaviour.
 Setting: Microsoft Teams
 
