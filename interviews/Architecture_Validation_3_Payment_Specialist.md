@@ -16,12 +16,10 @@ Yes. You want to know before you submit anything that the client has the right t
 It would be worse to submit a payment to ABN AMRO and then have it rejected because the consent is missing. Better to catch it early.
  
 
-Q3: For future-dated payments, the payment is submitted and authorised today but executed up to 365 days in the future. If the client cancels the payment in Access Online after authorisation, 
-Franx is not notified via the API. Is this an acceptable trade-off?
+Q3: For future-dated payments, the payment is submitted and authorised today but executed up to 365 days in the future. Franx will pull in the meanwhile the payment status of the PaymentId, do you think that as well?
  
-It is not ideal but it is acceptable for now. If a client cancels a future payment in Access Online, Franx is not notified. The trade remains open on the Franx side. On the execution date, the 
-funds simply do not arrive, and the trade settlement fails. The client will need to arrange the payment through another channel or deposit funds manually before the trade can be settled. This 
-is an operational risk we accept at this stage. For a production implementation you would want a better notification mechanism so operations can act proactively.
+Yes indeed, it gives the client overview of their pending payments, whether managed internally at Franx or at ABN AMRO. In a next phase, the payments approval screen at Franx should
+include external bank payments, with the payment status polled periodically so operations can monitor which payments are pending and flag any that have not arrived on time.
 
  
 Q4: The payment initiation flow requires the client to be redirected to Access Online to authorise the payment. Franx cannot automate this step. Does this affect the commercial value of the feature?
