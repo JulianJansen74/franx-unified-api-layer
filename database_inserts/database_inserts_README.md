@@ -14,8 +14,6 @@ Creates a backoffice record for ABN AMRO (BackofficeId 3). This is the external 
 
 Creates a corporate record representing the test client. The CorporateId (900050) is referenced by the consent record and the portfolio.
 
-> Note: The insert statement is commented out by default. Uncomment it before running if no corporate with Id 900050 exists in your environment.
-
 ### Step 3 — Portfolio.sql
 
 Creates a portfolio linked to the corporate (CorporateId 900050) with BackofficeId 3, connecting the client to the ABN AMRO backoffice.
