@@ -29,7 +29,7 @@ SELECT TOP (1000) [Id]
   FROM [dbo].[Corporates]
 
 
-  --insert into [dbo].[Corporates] ([SegmentId]
+  insert into [dbo].[Corporates] ([SegmentId]
       ,[Name]
       ,[CountryOfIncorporation]
       ,[RegistrationNumber]
