@@ -6,7 +6,7 @@ Master's thesis research — University of Amsterdam 2026
 
 **Author:** Julian Jansen (15998606)
 **Programme:** Master Information Studies — Information Systems
-**Supervisor:** Frank Nack (UvA) · Sander Oudejans (Franx)
+**Supervisor:** Frank Nack (UvA) · Lise Stork (UvA) · Sander Oudejans (Franx)
 **Examiner:** Giovanni Sileno (UvA)
 **Submitted:** 26 June 2026
 
