@@ -1,0 +1,2 @@
+insert into dbo.corporateABNConsent ([CorporateId],	[Client-Id],[API-Key],[Status],	[CreatedBy],[modifiedby])
+values (900050,'test_client','Vsh7ZIIBS6ISzfzoGN4JrALYZja7uwQl','Valid', SYSTEM_USER,SYSTEM_USER)
