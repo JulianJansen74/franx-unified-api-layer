@@ -38,8 +38,9 @@ The client gives consent today and the payment executes on the agreed execution 
 Q6: If a client revokes consent after a payment is approved but before the execution date, what should happen?
 
 If you have PIS, there is a cancellation API which Franx can call to cancel that payment at the external bank. 
-So if the client revokes consent, Franx calls the cancellation endpoint and the pending payment is cancelled.
-
+So if the client revokes consent, Franx calls the cancellation endpoint and the pending payment is cancelled. 
+However, this applies to the formal PSD2 route. In the non-PSD2 route via ABN AMRO Access Online, the client cancels the payment directly in the Access Online portal. 
+Franx detects this via periodic status polling using the payment ID.
 
 Q7: Where should consent objects be stored, and how should ABFR use them?
 
