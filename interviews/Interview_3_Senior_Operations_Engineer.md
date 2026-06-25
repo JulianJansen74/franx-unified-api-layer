@@ -39,5 +39,5 @@ It also makes Franx more relevant for clients who want to trade internationally 
 
 The biggest operational change would be around consent management. Right now consent for payments is implicit, the client logs into Franx and approves. 
 If we are initiating payments at an external bank, we need a formal consent mechanism and a way to track and validate that consent over time, 
-especially for forward contracts where the payment happens much later. The team would also need to handle failure scenarios — what happens if the external bank rejects the payment, 
+especially for forward contracts where the payment happens much later. The team would also need to handle failure scenarios, what happens if the external bank rejects the payment, 
 or if the client has revoked consent by then.
